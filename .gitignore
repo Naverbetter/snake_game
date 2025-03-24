@@ -1,0 +1,10 @@
+.import/
+.export/
+.godot/
+*.import
+*.tmp
+*.translation
+
+# OS 시스템 파일
+.DS_Store
+Thumbs.db
