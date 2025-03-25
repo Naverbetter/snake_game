@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dmhehgqwb2jmv"]
 
 [ext_resource type="Script" path="res://snake_head.gd" id="1_kvdtc"]
-[ext_resource type="Texture2D" uid="uid://blss8hgf05q33" path="res://icon.svg" id="2_88f7h"]
+[ext_resource type="Texture2D" uid="uid://c3rbum34fo8x7" path="res://icon.svg" id="2_88f7h"]
 
 [node name="SnakeHead" type="Node2D"]
 position = Vector2(0, -1)

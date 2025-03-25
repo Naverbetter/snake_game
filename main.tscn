@@ -1,8 +1,20 @@
-[gd_scene load_steps=2 format=3 uid="uid://c4r325lwamsjh"]
+[gd_scene load_steps=4 format=3 uid="uid://c4r325lwamsjh"]
 
 [ext_resource type="PackedScene" uid="uid://dmhehgqwb2jmv" path="res://snake_head.tscn" id="1_2qia5"]
+[ext_resource type="Script" path="res://main.gd" id="1_n1tsm"]
+[ext_resource type="PackedScene" uid="uid://csodvfue7yem1" path="res://snake_body.tscn" id="2_fqdev"]
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_n1tsm")
 
 [node name="SnakeHead" parent="." instance=ExtResource("1_2qia5")]
-position = Vector2(300, 300)
+position = Vector2(130, 296)
+
+[node name="SnakeBody" parent="." instance=ExtResource("2_fqdev")]
+position = Vector2(791, 585)
+
+[node name="SnakeBody2" parent="." instance=ExtResource("2_fqdev")]
+position = Vector2(917, 584)
+
+[node name="SnakeBody3" parent="." instance=ExtResource("2_fqdev")]
+position = Vector2(1043, 584)
